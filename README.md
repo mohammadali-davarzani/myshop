@@ -1,19 +1,25 @@
-My Shop
--------
+My Django Shop
+--------------------------------
+_Online store on Django, Python_
+--------------------------------
+rabbitmq-server
 
------------------------------
-`apt install rabbitmq-server`
+install: `sudo apt install rabbitmq-server`
 
 Run: `rabbitmq-server`
 
------------------------------
+--------------------------------
+celery
+
 `pip3 install celery`
 
 `celery -A myshop worker -l info`
+
+--------------------------------
+flower
 
 `pip3 install flower`
 
 `celery -A myshop flower`
 
-http://127.0.0.1:5555/dashboard
-
+--------------------------------
